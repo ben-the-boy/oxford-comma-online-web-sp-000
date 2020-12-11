@@ -6,7 +6,6 @@ def oxford_comma(array)
     elsif array.size >= 3
     last_word = array.pop
     beginning = array.join(" , ")
-    last = last_word.join
-    final = beginning << "and #{last}"
+    final = beginning << "and #{last_word}"
   end
 end
